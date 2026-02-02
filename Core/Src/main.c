@@ -28,10 +28,6 @@ char text[30];
 
 
 
-
-
-
-
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
@@ -99,7 +95,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	task_init();
 
-	
+	HAL_Delay(1);
 
   /* USER CODE END 2 */
 
