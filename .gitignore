@@ -1,0 +1,105 @@
+﻿# Keil MDK/μVision 项目文件
+*.uvgui.*
+*.uvguix.*
+*.uvopt
+*.uvoptx
+*.uvproj
+*.uvprojx
+*.uvmpw
+*.ini
+*.lst
+*.log
+*.dbg
+*.dll
+*.bat
+
+# 编译输出文件
+*.obj
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.crf
+*.dep
+*.lnp
+*.sct
+*.scr
+
+# 临时文件
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.bk
+*.~*
+
+# 中间文件
+Debug/
+Release/
+Output/
+Listings/
+Objects/
+
+# Keil 器件数据库
+*.pkg
+*.pack
+
+# RTE 配置文件
+RTE/
+
+# 用户设置文件
+*.uvguix.*           # 包含窗口布局等个人设置
+*.uvgui.*            # 旧版本的用户设置
+
+# 调试文件
+*.cdb
+*.dbgconf
+*.debug
+*.debugconfig
+
+# 库文件
+*.lib
+*.a
+
+# 预编译头文件
+*.pch
+*.gch
+
+# 汇编文件输出
+*.i
+*.s
+*.asm
+
+# 项目备份文件
+*_backup/
+Backup/
+
+# IDE 特定文件
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 文档文件
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# 仅保留源代码文件：
+# *.c, *.h, *.cpp, *.hpp, *.s, *.asm, *.inc, *.ld, *.md
